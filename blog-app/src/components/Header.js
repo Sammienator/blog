@@ -4,14 +4,16 @@ import Nav from 'react-bootstrap/Nav';
 
 function Header () {
   return (
-    <Navbar>
+    <Navbar className='transparent'>
       <Container>
-        <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#pricing">Blog</Nav.Link>
-        </Navbar.Collapse>
+        <Navbar.Brand href="#home">Stories by Her</Navbar.Brand>
+        <Nav className="ms-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Blog</Nav.Link>
+            
+          </Nav>
+        
+      
       </Container>
     </Navbar>
   );
