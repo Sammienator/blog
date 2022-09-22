@@ -12,7 +12,7 @@ const Screen = () => {
             <Carousel> 
 
         <Carousel.Item>
-        <img width="100%" height= "100%"
+        <img width="100%" height= "500px"
           className="d-block"
           src={pc}
           alt="First slide"
@@ -26,7 +26,7 @@ const Screen = () => {
 
 
       <Carousel.Item>
-        <img width="100%" height= "100%"
+        <img width="100%" height= "500px"
           className="d-block"
           src={pc2}
           alt="second slide"
