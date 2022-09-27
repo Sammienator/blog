@@ -1,52 +1,22 @@
-import React from 'react'
-import Container from 'react-bootstrap/esm/Container';
-import Carousel from 'react-bootstrap/Carousel';
-import pc from '../assets/pc.jpg';
-import pc2 from '../assets/pc2.jpg';
+import React from 'react';
+
+import giraffic from '../assets/giraffic.jpeg'
+
 
 
 const Screen = () => {
   return (
     <div>
-        <Container> 
-            <Carousel> 
+        
+        <div className='picha'>
+          <img src={giraffic}  alt='this is a phots'/>
+        </div>
+        
 
-        <Carousel.Item>
-        <img width="100%" height= "500px"
-          className="d-block"
-          src={pc}
-          alt="First slide"
-        />
-        <Carousel.Caption >
-          <h1>Telling Stories that Matter</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-
-
-      <Carousel.Item>
-        <img width="100%" height= "500px"
-          className="d-block"
-          src={pc2}
-          alt="second slide"
-        />
-        <Carousel.Caption >
-          <h1>Telling stories by Us!</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-
-      </Carousel>
-      
-        </Container>
-
-
-   
-   
-      
-      
+        <div className='text'>
+          <h1> this is my paragraph</h1>
+          <p> Lorem ipsum this is my paragraph Lorem ipsum this is my paragraph Lorem ipsum this is my paragraph Lorem ipsum this is my paragraph</p>
+        </div>
     </div>
 
 
